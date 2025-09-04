@@ -4,7 +4,7 @@
 ARG BASE_IMAGE=senzing/senzingsdk-runtime:latest
 FROM ${BASE_IMAGE}
 
-LABEL Name="brian/sz_fileloader" \
+LABEL Name="brian/sz_file_loader" \
       Maintainer="brianmacy@gmail.com" \
       Version="DEV"
 
